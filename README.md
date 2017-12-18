@@ -1,7 +1,9 @@
 
 These are some examples of how to use SQL commands. See below for instructions on how to set up and use this application
 
-#INSTALLATION
+# INSTALLATION
+
+First, download this repository. Then follow the bullet points below.
 
 1. Make sure you have MySQL Community Edition and MySQL Workbench downloaded and installed (Follow the instructions [here](https://dev.mysql.com/downloads/mysql/) and [here](https://dev.mysql.com/downloads/workbench/). Default settings for everything should be fine).
 
@@ -21,6 +23,8 @@ module.exports = {
 5. run `npm install`
 
 
-#USAGE
+# USAGE
 
-The examples are all in the 'exercises.sql' file. You can verify they work by running `npm test`. If you feel like punishing yourself, you can modify the tests or create new ones by looking in the 'test/test.specs.js' file. 
+The examples are all in the 'exercises.sql' file. You can verify they work by running `npm test`. If you feel like punishing yourself, you can modify the tests or create new ones by looking in the 'test/test.specs.js' file.
+
+The database being used is a sample called sakila. It should already be included in this project. You can use the Workbench to explore around the database, and see what different SQL instructions actually do.
